@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Profil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>Belajar Pemerograman Web</h1>
+      <p>Belajar HTML, CSS, dan JavaScript</p>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#anggota">Anggota</a>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="container">
+      <h2>Selamat Datang</h2>
+      <img src="https://via.placeholder.com/300" alt="Foto" class="gambar" />
+      <p>Ini adalah website sederhana yang interaktif.</p>
+
+      <button onclick="gantiTeks()">Klik Saya</button>
+      <p id="teks"></p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container">
+      <h2>Tentang Website</h2>
+      <p>Website ini dibuat menggunakan HTML, CSS, dan JavaScript.</p>
+    </section>
+
+    <!-- LIST NAMA -->
+    <section id="anggota" class="container">
+      <h2>Daftar Anggota</h2>
+      <ul id="listNama">
+        <li>Rizal</li>
+        <li>Yunan</li>
+        <li>Samie</li>
+        <li>Putra</li>
+      </ul>
+
+      <button onclick="tambahNama()">Tambah Nama</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2026 Website Arapp</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
